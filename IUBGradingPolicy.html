@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Policy</title>
+
+    <style>
+        .GradeSection{
+            background-color: lightblue;
+            margin: 100px;
+            padding: 100px;
+            padding-bottom: 600px;
+            color: gray;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="GradeSection">
+        <script>
+            var Person = prompt ("Enter Your Name");
+            var Score = parseInt(prompt ("Enter You marks out of 100"));
+            var Grade = "";   
+            
+            if (Score >= 100){
+                Grade = " Your Score is Invalid "
+            }
+            else if (Score >= 90) {
+
+                Grade = "A";
+            }
+            else if (Score <90 && Score >=85){
+            
+                Grade = "A-";
+            }
+
+            else if (Score <85 && Score >=80){
+
+                Grade = "B+";
+            }
+
+            else if (Score <80 && Score >=80){
+            
+                Grade = "B";
+            }
+
+            else if (Score <70 && Score >=75){
+    
+                Grade = "B-";
+
+            }
+                else if (Score <65 && Score >=70){
+            
+                Grade = "C+";
+            }
+
+            else if (Score <60 && Score >=65){
+
+                Grade = "C";
+            }
+            
+            else if (Score <55 && Score >=50){
+            
+                Grade = "C-";
+
+            }
+            else if (Score <50 && Score >=55){
+                
+                Grade = "D+";
+
+            }
+            else if (Score <45 && Score >=50){
+        
+                Grade = "D";
+
+            }
+            else{
+                Grade = "F";
+
+            }
+                
+            document.write ("Hello "+ Person + ", Your Grade is: <b>"+ Grade +"<b>");
+
+            
+            
+            
+        </script>
+
+    </div>
+</body>
+</html>
+
