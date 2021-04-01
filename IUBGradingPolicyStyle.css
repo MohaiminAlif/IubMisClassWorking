@@ -9,3 +9,29 @@
 .TopBackground{
  
 }
+
+body {
+    background-image: url(IUBLogo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.topBar{
+    padding: 30px;
+    background-color: grey;
+   
+    opacity: 0.6;
+    
+}
+
+.topText{
+    
+    margin-top: -50px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(60, 116, 5);
+    margin-left: 100px;
+}
+
+
