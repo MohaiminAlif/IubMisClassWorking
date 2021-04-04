@@ -17,14 +17,31 @@
     <h2>Welcome to IUB Grading System</h2>
     <h3>IUB Grading System</h3>
     </div>
+    <div>
+        <p>Enter Your Score below</p>
+        <input type="text" id="myText" value="TT ">
+        <button onclick="myFunction()">Grade</button>
+    </div>
+
+    <div>
+        
+    </div>
 
     <div class="GradeSection">
      
         <script>
+
+            function myFunction() {
+            var x = document.getElementById("myText").value;
+            document.getElementById("demo").innerHTML = x;
+            }
+            /*
             var pass= prompt("Enter Password");
             if(pass==55542369){
-                var Person = prompt ("Enter Your Name");
-                var Score = parseInt(prompt ("Enter You marks out of 100"));
+                function myFunction() {
+                var x = document.getElementById("myText").value;
+                document.getElementById("demo").innerHTML = x;
+                }
                 var Grade = "";   
                 
                 if (Score >= 100){
@@ -88,9 +105,11 @@
 
             
             }
-            
-        </script>
+            */
 
+
+        </script>
+        <p id="demo"></p>
     </div>
 </body>
 </html>
