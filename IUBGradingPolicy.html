@@ -22,6 +22,7 @@
         <input type="text" id="Score" value=" ">
         <button onclick="myFunction()">Grade</button>
         
+        
     </div>
 
     <div class="GradeSection">
@@ -32,12 +33,10 @@
                 var Grade = " ";
                
                 var x = document.getElementById("Score").value;
-                
-             
-             
+                                  
                 Score = parseInt(x);
                 if (Score >= 100){
-                    Grade = " Your Score is Invalid "
+                    Grade = " Your Score is Invalid " ;
                 }
                 else if (Score >= 90) {
 
@@ -99,7 +98,9 @@
             
  
         </script>
+
         <p id="demo">Grade</p>  
+
     </div>
 </body>
 </html>
