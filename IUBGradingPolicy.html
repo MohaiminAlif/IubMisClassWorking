@@ -19,11 +19,8 @@
     </div>
     <div>
         <p>Enter Your Score below</p>
-        <input type="text" id="myText" value="TT ">
+        <input type="text" id="myText" value=" ">
         <button onclick="myFunction()">Grade</button>
-    </div>
-
-    <div>
         
     </div>
 
@@ -32,84 +29,77 @@
         <script>
 
             function myFunction() {
-            var x = document.getElementById("myText").value;
-            document.getElementById("demo").innerHTML = x;
-            }
-            /*
-            var pass= prompt("Enter Password");
-            if(pass==55542369){
-                function myFunction() {
+                var Grade = " ";
+               
                 var x = document.getElementById("myText").value;
-                document.getElementById("demo").innerHTML = x;
-                }
-                var Grade = "";   
                 
+             
+             
+                Score = parseInt(x);
                 if (Score >= 100){
                     Grade = " Your Score is Invalid "
                 }
                 else if (Score >= 90) {
 
-                    Grade = "A";
+                    Grade = "Your Grade is A";
                 }
                 else if (Score <90 && Score >=85){
                 
-                    Grade = "A-";
+                    Grade = "Your Grade is A-";
                 }
 
                 else if (Score <85 && Score >=80){
 
-                    Grade = "B+";
+                    Grade = "Your Grade is B+";
                 }
 
                 else if (Score <80 && Score >=80){
                 
-                    Grade = "B";
+                    Grade = "Your Grade is B";
                 }
 
                 else if (Score <70 && Score >=75){
         
-                    Grade = "B-";
+                    Grade = "Your Grade is B-";
 
                 }
                     else if (Score <65 && Score >=70){
                 
-                    Grade = "C+";
+                    Grade = "Your Grade is C+";
                 }
 
                 else if (Score <60 && Score >=65){
 
-                    Grade = "C";
+                    Grade = "Your Grade is C";
                 }
                 
                 else if (Score <55 && Score >=50){
                 
-                    Grade = "C-";
+                    Grade = "Your Grade is C-";
 
                 }
                 else if (Score <50 && Score >=55){
                     
-                    Grade = "D+";
+                    Grade = "Your Grade is D+";
 
                 }
                 else if (Score <45 && Score >=50){
             
-                    Grade = "D";
+                    Grade = "Your Grade is D";
 
                 }
                 else{
-                    Grade = "F";
+                    Grade = "Your Grade is F";
 
                 }
                 
-            document.write ("Hello "+ Person + ", Your Grade is: <b>"+ Grade +"<b>");
+                document.getElementById("demo").innerHTML = Grade;
 
+            }  
             
-            }
-            */
-
-
+ 
         </script>
-        <p id="demo"></p>
+        <p id="demo">Grade</p>  
     </div>
 </body>
 </html>
