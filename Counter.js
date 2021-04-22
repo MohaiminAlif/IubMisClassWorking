@@ -67,5 +67,31 @@ function check() {
 }
 
 
+
+
+
+function check() {
+               
+    var f = parseInt(document.getElementById("fY").value);
+    var l = parseInt(document.getElementById("lY").value);
+
+    var count = 14;
+  
+    
+    for(var i = f ; i<=l ; i+=f){
+
+        if(count == 1){
+            document.write("14th numbers is =  " +i + "<br>");
+        }
+
+        count--;
+
+  
+    }
+    //document.write("Total even numbers is =  "+count + "<br>")
+    //document.write("Sum of odd numbers =  "+sum + "<br>")
+
+}
+
 */
 
