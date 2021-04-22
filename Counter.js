@@ -41,4 +41,31 @@ function check() {
     document.write("Total number of leap year is =  "+count)
    
 }
+
+
+function check() {
+               
+    var f = parseInt(document.getElementById("fY").value);
+    var l = parseInt(document.getElementById("lY").value);
+    var sum = 0;
+    var count = 0;
+    
+    for(var i = f ; i<=l ; i++){
+        if(i % 2 == 0){
+            count++;
+        }
+
+        else{
+            sum = sum +i;
+        }
+   
+    }
+    document.write("Total even numbers is =  "+count + "<br>")
+    document.write("Sum of odd numbers =  "+sum + "<br>")
+
+   
+}
+
+
 */
+
