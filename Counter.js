@@ -79,7 +79,7 @@ function check() {
     for(var i = f ; i<=l ; i+=f){
 
         if(count == 1){
-            document.getElementById("text").innerHTML = " "+ name + " Your total course is " + x + " and your tution fee is "+ newTotal;
+            document.getElementById("text").innerHTML = "The "+ c + "th number is " + i;
         }
 
         count--;
