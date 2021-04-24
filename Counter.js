@@ -68,6 +68,25 @@ function check() {
 
 */
 
+function totalEven() {
+               
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+
+
+    var count = 0;
+    
+    for(var i = f ; i<=l ; i++){
+        if(i % 2 == 0){
+            count++;
+        }
+   
+    }
+
+    document.getElementById("text2").innerHTML = "Total even numers between "+ f + " and " + l + " is " + count;
+   
+}
+
 function check() {
                
     var f = parseInt(document.getElementById("fNum").value);
