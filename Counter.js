@@ -1,4 +1,4 @@
-
+/*
 
 function confirm() {
                
@@ -21,8 +21,7 @@ function confirm() {
     document.write("sum of numbers greater or equal to 100 is =  "+sum)
    
 }
-
-
+*/
 
 /*
 function check() {
@@ -67,21 +66,20 @@ function check() {
 }
 
 
-
-
+*/
 
 function check() {
                
-    var f = parseInt(document.getElementById("fY").value);
-    var l = parseInt(document.getElementById("lY").value);
-
-    var count = 14;
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+    var c = parseInt(document.getElementById("cNum").value);
+    var count = c;
   
     
     for(var i = f ; i<=l ; i+=f){
 
         if(count == 1){
-            document.write("14th numbers is =  " +i + "<br>");
+            document.getElementById("text").innerHTML = " "+ name + " Your total course is " + x + " and your tution fee is "+ newTotal;
         }
 
         count--;
@@ -92,6 +90,4 @@ function check() {
     //document.write("Sum of odd numbers =  "+sum + "<br>")
 
 }
-
-*/
 
