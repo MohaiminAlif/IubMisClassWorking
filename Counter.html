@@ -9,35 +9,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <section class="container ml-5 mt-3">
 
+    <section>
 
-
-        <h2 class="mb-3">Counter</h2>
-    
-    
-        <div>
-            
-            <h3>here you input your first number and last number and the system will show all the numbers between the range and will show the total count the digits higher or equal than 100</h3>
-    
-            <input type="text" id="fNum" value=" ">
-            <p class="para">first number</p>
-    
-            
-            <input type="text" id="lNum" value=" ">
-            <p class="para mb-4">last number</p>
-    
-            <button type="button" class="btn btn-success" onclick="confirm()">Confirm</button><br><br>
+        <script src="index.js"></script>
     
 
+        <section class="container ml-5 mt-3">
 
-                  
-        </div>
+            <h2 class="mb-3">Check</h2>
+        
+        
+            <div>
+        
+                <input type="text" id="fNum" value=" ">
+                <p class="para">first number</p>
+        
+                
+                <input type="text" id="lNum" value=" ">
+                <p class="para mb-4">last number</p>
+                
+                                
+                <input type="text" id="cNum" value=" ">
+                <p class="para mb-4">Chossen term</p>
+
+                <button type="button" class="btn btn-success" onclick="check()">check</button><br><br>
+        
+                <p class="container" id="text" style="color: rgb(0, 4, 255); font-weight: 700;"></p> 
     
-    </section>
-    
-        <script src="Counter.js"></script>
-    
+                      
+            </div>
+        
+        </section>
+        
+            <script src="index.js"></script>
+        
         
 </body>
 </html>
