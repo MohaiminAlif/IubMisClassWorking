@@ -148,3 +148,25 @@ function totalEven() {
    
 }
 
+
+
+function totalOdd() {
+               
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+
+
+    var count = 0;
+    
+    for(var i = f ; i<=l ; i++){
+        if(i % 2 == 1){
+            count++;
+        }
+   
+    }
+    document.getElementById("text3").innerHTML = "Total even numers between "+ f + " and " + l + " is " + count;
+   
+}
+
+
+
