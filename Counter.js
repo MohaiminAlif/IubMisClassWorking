@@ -169,4 +169,27 @@ function totalOdd() {
 }
 
 
+function nthValue() {
+               
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+    var c = parseInt(document.getElementById("cNum").value);
+    var count = c;
+  
+    
+    for(var i = f ; i<=l ; i+=f){
+
+        if(count == 1){
+            document.getElementById("text1").innerHTML = "The "+ c + "th number is " + i;
+        }
+ 
+        count--;
+
+  
+    }
+
+
+}
+
+
 
