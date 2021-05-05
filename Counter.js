@@ -243,6 +243,6 @@ function findTotalNumbers(){
     document.write("The number needed is " + count + " = " +total );
 
 }
-*/
+
 
 
