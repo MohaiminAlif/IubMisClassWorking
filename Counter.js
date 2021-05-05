@@ -192,4 +192,35 @@ function nthValue() {
 }
 
 
+function findTotalNumbers() {
+               
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+    var n = parseInt(document.getElementById("cNum").value);
+
+    var sum = 0;
+    var count = 0;
+    
+
+    for(var i = f ; i <=n ; i = i+100){
+        
+        if(i==f){
+            document.write(i);
+        }
+        
+        else if(i<n){
+        document.write(" , " + i);
+        }
+
+        else document.write(" , ");
+        count++;
+     
+    }
+    document.write(n+"");
+    document.write(sum);
+
+}
+
+
+
 
