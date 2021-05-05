@@ -221,6 +221,28 @@ function findTotalNumbers() {
 
 }
 
+/*
+function findTotalNumbers(){
+               
+    var f = parseInt(document.getElementById("fNum").value);
+    var l = parseInt(document.getElementById("lNum").value);
+    var n = parseInt(document.getElementById("cNum").value);
 
+    var sum = 0;
+    var last = 2000;
+    var count = 0;
+    
+
+    while(last > 100){
+        sum = sum + 100;
+        last = last - sum;
+        count++
+    }
+
+    var total = count *100;
+    document.write("The number needed is " + count + " = " +total );
+
+}
+*/
 
 
